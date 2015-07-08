@@ -28,12 +28,14 @@ shift argv
 if ( $help ) then
     echo "The optional arguments are:"
     echo "--type       followed by the type of the experiment, currently one of the following:"
-    echo "             MOM_solo : solo ocean model"
-    echo "             MOM_SIS  : ocean-seaice model"
-    echo "             CM2M     : ocean-seaice-land-atmosphere coupled climate model"
-    echo "             ESM2M    : ocean-seaice-land-atmosphere coupled climate model with biogeochemistry, EarthSystemModel"
-    echo "             ICCM     : ocean-seaice-land-atmosphere coupled model"
-    echo "             EBM      : ocean-seaice-land-atmosphere coupled model with energy balance atmosphere"
+    echo "             MOM_solo  : solo ocean model"
+    echo "             MOM_SIS   : ocean-seaice model"
+    echo "             CM2M      : ocean-seaice-land-atmosphere coupled climate model"
+    echo "             ESM2M     : ocean-seaice-land-atmosphere coupled climate model with biogeochemistry, EarthSystemModel"
+    echo "             ICCM      : ocean-seaice-land-atmosphere coupled model"
+    echo "             EBM       : ocean-seaice-land-atmosphere coupled model with energy balance atmosphere"
+    echo "             ACCESS-OM : ocean-seaice coupled model within the ACCESS framework"
+    echo "             ACCESS-CM : ocean-seaice-land-atmosphere coupled model within the ACCESS framework"
     echo
     echo "--platform   followed by the platform name that has a corresponfing environ file in the ../bin dir, default is ncrc.intel"
     echo
