@@ -77,7 +77,7 @@ endif
 #
 # Users must ensure the correct environment file exists for their platform.
 #
-source $root/bin/environs.$platform  # environment variables and loadable modules
+# source $root/bin/environs.$platform  # environment variables and loadable modules
 
 #
 # compile mppnccombine.c, needed only if $npes > 1
