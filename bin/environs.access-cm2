@@ -1,14 +1,4 @@
-#         source /etc/profile.d/nf_csh_modules
-#         module purge
-# module load intel-fc/13.5.192
-# module load intel-cc/13.5.192
-# module load intel-mkl/13.5.192
-# module load openmpi/1.8.2
-# module load netcdf/4.3.2
-# #module load hdf5/1.8.13
-
-# Use prebuild Oasis3-mct library for ACCESS-CM2/nci 
-#setenv OASIS_ROOT ~access/access-cm2/prebuild/oasis3-mct/Linux-182
+# Use Oasis3-mct library built in the current Rose suite 
 setenv MCT_DIR /home/900/mpc900/cylc-run/au-aa347/share/fcm_make_mct/build
 setenv MPEU_DIR /home/900/mpc900/cylc-run/au-aa347/share/fcm_make_mpeu/build
 setenv SCRIP_DIR /home/900/mpc900/cylc-run/au-aa347/share/fcm_make_scrip/build
